@@ -22,4 +22,4 @@ def get_api():
     return jsonify(hello_dict[lang])
 
 
-app.run(host='0.0.0.0',threaded=True,use_reloader=True, debug=False,port=5000 )
+app.run(host='0.0.0.0',threaded=True,use_reloader=True, debug=False,port=5002 )
